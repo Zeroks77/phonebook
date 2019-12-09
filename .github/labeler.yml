@@ -1,14 +1,4 @@
-bug:
-  titel:  "(fix|bug|bugfix)/i"
-chore:
-  titel:  "chore/i"
-dependencies:
-  titel:  "deps/i"
-docs:
-  titel:  "docs/i"
-feature:
-  titel:  "(feat|feature)/i"
-fix:
-  titel:  "(fix|bug|bugfix)/i"
 WIP:
-  title:  "WIP/i"
+  title:  "WIP"
+feature:
+  title:  "feat | feature"
