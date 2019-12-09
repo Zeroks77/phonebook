@@ -11,7 +11,7 @@ jobs:
   pr-labeler:
     runs-on: ubuntu-latest
     steps:
-      - uses: srvaroa/labeler@master
+      - uses: srvaroa/labeler@v0.2
         with:
           configuration-path: .github/pr-labeler.yml # optional, .github/pr-labeler.yml is the default value
         env:
