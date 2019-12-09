@@ -13,6 +13,6 @@ jobs:
     steps:
       - uses: srvaroa/labeler@v0.2
         with:
-          configuration-path: .github/pr-labeler.yml # optional, .github/pr-labeler.yml is the default value
+          configuration-path: .github/actions/pr-labeler.yml # optional, .github/pr-labeler.yml is the default value
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
