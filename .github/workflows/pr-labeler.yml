@@ -1,7 +1,5 @@
 name: PR Labeler
-on:
-  pull_request:
-    types: [opened]
+on: [pull_request,pull_request_review,status]
 
 jobs:
   pr-labeler:
