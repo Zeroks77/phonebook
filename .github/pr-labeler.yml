@@ -1,0 +1,7 @@
+feature: ['feature/*', 'feat/*']
+fix: fix/*
+bug: fix/*
+wip: wip/*
+chore: chore/*
+dependencies: *(deps)/*
+docs: ['doc/*','docs/* ']
