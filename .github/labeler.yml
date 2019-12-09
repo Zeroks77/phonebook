@@ -1,14 +1,14 @@
 WIP:
-  title:  "WIP(/i)"
+  title:  "/WIP/i"
 feature:
-  title:  "(feat|feature)(/i)"
+  title:  "/(feat|feature)/i"
 bug:
-  title:  "(fix|bugfix|bug)(/i)"
+  title:  "/(fix|bugfix|bug)/i"
 docs:
-  title:  "docs(/i)"
+  title:  "/docs/i"
 chore:
-  title:  "chore(?i)"
+  title:  "/chore/i"
 feature:
-  title:  "(feat|feature)(/i)"
+  title:  "/(feat|feature)/i"
 Demo:
-  title:  "demo(/i)"
+  title:  "/demo/i"
