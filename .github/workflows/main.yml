@@ -12,3 +12,19 @@ jobs:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         MERGE_METHOD: "squash"
         LABELS: "!wip,!work in progress"
+
+- name: Condition-based Pull Request labeler
+
+on:
+  - pull_request
+
+jobs:
+  build:
+
+	runs-on: ubuntu-latest
+	
+	steps:
+	- uses: srvaroa/labeler@v0.2
+	  env:
+		GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }
+    

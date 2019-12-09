@@ -1,0 +1,18 @@
+WIP:
+    title: "i^WIP:.*"
+
+Feature: 
+  title: "i^feat:.*"
+
+Bug:
+  title: "i^fix:.*"
+
+
+
+S:
+  size-below: 10
+M:
+  size-above: 9
+  size-below: 100
+L:
+  size-above: 100
