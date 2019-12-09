@@ -2,3 +2,13 @@ WIP:
   title:  "WIP"
 feature:
   title:  "(feat|feature)"
+bug:
+  title:  "(fix|bugfix|bug)"
+docs:
+  title:  "docs"
+chore:
+  title:  "chore"
+feature:
+  title:  "(feat|feature)"
+Demo:
+  title:  "demo"
