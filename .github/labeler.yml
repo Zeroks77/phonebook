@@ -1,14 +1,14 @@
 bug: 
-  titel: (fix|bug|bugfix)/i
+  titel: "(fix|bug|bugfix)/i"
 chore: 
-  titel: chore/i
+  titel: "chore/i"
 dependencies: 
-  titel: deps/i
+  titel: "deps/i"
 docs: 
-  titel: docs/i
+  titel: "docs/i"
 feature: 
-  titel: (feat|feature)/i
+  titel: "(feat|feature)/i"
 fix: 
-  titel: (fix|bug|bugfix)/i
+  titel: "(fix|bug|bugfix)/i"
 wip: 
-  titel: wip/i
+  titel: "wip/i"
