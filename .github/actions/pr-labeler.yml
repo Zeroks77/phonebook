@@ -1,7 +1,7 @@
-feature: ['feature/*', 'feat/*']
-fix: fix/*
-bug: fix/*
-wip: wip/*
-chore: chore/*
-dependencies: *(deps)/*
-docs: ['doc/*','docs/* ']
+feature: titel : "i^feat/*"
+fix: titel : "i^fix/*"
+bug: titel : "i^fix/*"
+wip: titel : "i^wip/*"
+chore: titel : "i^chore/*"
+dependencies: titel : "i^/*(deps)/*"
+docs: titel : "i^docs/*"
