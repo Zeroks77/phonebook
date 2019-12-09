@@ -1,5 +1,5 @@
 bug: 
-  titel: i^fix/*
+  titel: [i^fix/* , i^/*(bug)/*]
 chore: 
   titel: i^chore/*
 dependencies: 
@@ -7,7 +7,7 @@ dependencies:
 docs: 
   titel: i^docs/*
 feature: 
-  titel: i^feat/*
+  titel: [i^feat/* , i^feature/* ]
 fix: 
   titel: i^fix/*
 wip: 
