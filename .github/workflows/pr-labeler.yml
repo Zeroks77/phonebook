@@ -1,5 +1,11 @@
 name: PR Labeler
-on: [pull_request,pull_request_review,status]
+on: 
+  push:
+  pull_request:
+    types: [opened, edited, review_requested]
+  pull_request_review:
+    types: [edited, submitted]
+  
 
 jobs:
   pr-labeler:
