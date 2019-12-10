@@ -3,11 +3,11 @@ WIP:
 feature:
   title:  "/(feat|feature)/i"
 bug:
-  title:  "/(fix|bugfix|bug)/i"
+  title:  /"(fix|bugfix|bug)"/i
 docs:
   title:  "/docs/i"
 chore:
-  title:  "/chore/ig"
+  title:  /"chore"/ig
 feature:
   title:  "/(feat|feature)/i"
 Demo:
